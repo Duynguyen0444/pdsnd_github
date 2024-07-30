@@ -13,5 +13,4 @@ Run statistics on multiple data pools related to bicycle sharing
 new_york_city.csv chicago.csv washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Thank you to Udacity for creating the challenging project!
