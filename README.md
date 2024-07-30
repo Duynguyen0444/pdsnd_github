@@ -1,10 +1,10 @@
 >**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+30/07/2024
 
 ### Project Title
-Replace the Project Title
+Udacity Bike-Share Project
 
 ### Description
 Udacity Bike-Share Project
@@ -13,5 +13,4 @@ Udacity Bike-Share Project
 new_york_city.csv chicago.csv washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Thank you to Udacity for creating the challenging project!
