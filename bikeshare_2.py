@@ -151,10 +151,9 @@ def trip_duration_stats(df):
 def convert_seconds_to_dhms(seconds):
   """Converts seconds to days, hours, minutes, and seconds format."""
 
-  days, remainder = divmod(seconds, 86400)  # Get days and remaining seconds
-  hours, remainder = divmod(remainder, 3600)  # Get hours and remaining seconds
-  minutes, seconds = divmod(remainder, 60)  # Get minutes and seconds
-
+  days, remainder = divmod(seconds, 86400)  
+  hours, remainder = divmod(remainder, 3600)  
+  minutes, seconds = divmod(remainder, 60)  
   return days, hours, minutes, seconds
 
 def user_stats(df):
@@ -188,9 +187,8 @@ def user_stats(df):
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
+"""Displays rows of data based on user request."""
 def display_data(df):
-    """Displays rows of data based on user request."""
-    
     start_loc = 0
     view_data = input('Would you like to see the first 5 rows of data? Enter yes or no.\n').lower()
     while view_data == 'yes':
